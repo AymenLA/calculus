@@ -85,5 +85,7 @@ uint32_t main(uint32_t argc, uint32_t *argv)
 	free(pu32_val2);
 #endif
 	printf("result : %d \n",(print_hex(u8_tab,45) == 0 ? 0 : 1 ));
+
+	to_base64(NULL,NULL);
 	return 0;
 }

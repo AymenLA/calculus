@@ -5,7 +5,7 @@ uint32_t print_data(uint32_t u32_val1)
 {
 
 	#ifdef DEBUG_PRINT
-		printf("print_data running\n")
+		printf("print_data running\n");
 	#endif
 
 	if(printf("print data : %d\n",u32_val1) != 0)
